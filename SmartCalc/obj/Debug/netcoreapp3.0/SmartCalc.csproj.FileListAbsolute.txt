@@ -1,0 +1,17 @@
+C:\Users\Huesos\Documents\DIEGO\SCHOOL\DAI\cSharp\SmartCalc\bin\Debug\netcoreapp3.0\SmartCalc.exe
+C:\Users\Huesos\Documents\DIEGO\SCHOOL\DAI\cSharp\SmartCalc\bin\Debug\netcoreapp3.0\SmartCalc.deps.json
+C:\Users\Huesos\Documents\DIEGO\SCHOOL\DAI\cSharp\SmartCalc\bin\Debug\netcoreapp3.0\SmartCalc.runtimeconfig.json
+C:\Users\Huesos\Documents\DIEGO\SCHOOL\DAI\cSharp\SmartCalc\bin\Debug\netcoreapp3.0\SmartCalc.runtimeconfig.dev.json
+C:\Users\Huesos\Documents\DIEGO\SCHOOL\DAI\cSharp\SmartCalc\bin\Debug\netcoreapp3.0\SmartCalc.dll
+C:\Users\Huesos\Documents\DIEGO\SCHOOL\DAI\cSharp\SmartCalc\bin\Debug\netcoreapp3.0\SmartCalc.pdb
+C:\Users\Huesos\Documents\DIEGO\SCHOOL\DAI\cSharp\SmartCalc\obj\Debug\netcoreapp3.0\SmartCalc.csprojAssemblyReference.cache
+C:\Users\Huesos\Documents\DIEGO\SCHOOL\DAI\cSharp\SmartCalc\obj\Debug\netcoreapp3.0\MainWindow.g.cs
+C:\Users\Huesos\Documents\DIEGO\SCHOOL\DAI\cSharp\SmartCalc\obj\Debug\netcoreapp3.0\App.g.cs
+C:\Users\Huesos\Documents\DIEGO\SCHOOL\DAI\cSharp\SmartCalc\obj\Debug\netcoreapp3.0\SmartCalc_MarkupCompile.cache
+C:\Users\Huesos\Documents\DIEGO\SCHOOL\DAI\cSharp\SmartCalc\obj\Debug\netcoreapp3.0\SmartCalc_MarkupCompile.lref
+C:\Users\Huesos\Documents\DIEGO\SCHOOL\DAI\cSharp\SmartCalc\obj\Debug\netcoreapp3.0\MainWindow.baml
+C:\Users\Huesos\Documents\DIEGO\SCHOOL\DAI\cSharp\SmartCalc\obj\Debug\netcoreapp3.0\SmartCalc.g.resources
+C:\Users\Huesos\Documents\DIEGO\SCHOOL\DAI\cSharp\SmartCalc\obj\Debug\netcoreapp3.0\SmartCalc.AssemblyInfoInputs.cache
+C:\Users\Huesos\Documents\DIEGO\SCHOOL\DAI\cSharp\SmartCalc\obj\Debug\netcoreapp3.0\SmartCalc.AssemblyInfo.cs
+C:\Users\Huesos\Documents\DIEGO\SCHOOL\DAI\cSharp\SmartCalc\obj\Debug\netcoreapp3.0\SmartCalc.dll
+C:\Users\Huesos\Documents\DIEGO\SCHOOL\DAI\cSharp\SmartCalc\obj\Debug\netcoreapp3.0\SmartCalc.pdb
