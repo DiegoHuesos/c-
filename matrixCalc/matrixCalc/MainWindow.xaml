@@ -1,0 +1,18 @@
+﻿<Window x:Class="matrixCalc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:matrixCalc"
+        mc:Ignorable="d"
+        Title="Matrix Calculator" Height="450" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="./pencil.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Label x:Name="lbTitle" Content="Matrix Calculator" HorizontalAlignment="Left" Height="52" Margin="230,10,0,0" VerticalAlignment="Top" Width="321" Foreground="#FFE2C853" FontSize="36" FontWeight="Bold"/>
+        <TextBox x:Name="tbNum" Text="Ingresa la longitud de la matriz" HorizontalAlignment="Left" Height="40" Margin="218,67,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="315" Background="{x:Null}" FontSize="20" Foreground="#FFD49243" TextAlignment="Center" FontStretch="SemiCondensed" FontWeight="Bold" CaretBrush="White" BorderBrush="#FFB68C32" KeyDown="TbNum_KeyDown"  MouseEnter="TbNum_MouseEnter" MouseLeave="TbNum_MouseLeave_1" />
+
+    </Grid>
+    
+</Window>

@@ -1,0 +1,15 @@
+C:\Users\DHERNANDDE\Desktop\cSharp\SmartCalc\SmartCalc\obj\Debug\SmartCalc.csprojAssemblyReference.cache
+C:\Users\DHERNANDDE\Desktop\cSharp\SmartCalc\SmartCalc\obj\Debug\MainWindow.g.cs
+C:\Users\DHERNANDDE\Desktop\cSharp\SmartCalc\SmartCalc\obj\Debug\App.g.cs
+C:\Users\DHERNANDDE\Desktop\cSharp\SmartCalc\SmartCalc\obj\Debug\SmartCalc_MarkupCompile.cache
+C:\Users\DHERNANDDE\Desktop\cSharp\SmartCalc\SmartCalc\obj\Debug\SmartCalc_MarkupCompile.lref
+C:\Users\DHERNANDDE\Desktop\cSharp\SmartCalc\SmartCalc\bin\Debug\SmartCalc.exe.config
+C:\Users\DHERNANDDE\Desktop\cSharp\SmartCalc\SmartCalc\bin\Debug\SmartCalc.exe
+C:\Users\DHERNANDDE\Desktop\cSharp\SmartCalc\SmartCalc\bin\Debug\SmartCalc.pdb
+C:\Users\DHERNANDDE\Desktop\cSharp\SmartCalc\SmartCalc\obj\Debug\MainWindow.baml
+C:\Users\DHERNANDDE\Desktop\cSharp\SmartCalc\SmartCalc\obj\Debug\SmartCalc.g.resources
+C:\Users\DHERNANDDE\Desktop\cSharp\SmartCalc\SmartCalc\obj\Debug\SmartCalc.Properties.Resources.resources
+C:\Users\DHERNANDDE\Desktop\cSharp\SmartCalc\SmartCalc\obj\Debug\SmartCalc.csproj.GenerateResource.cache
+C:\Users\DHERNANDDE\Desktop\cSharp\SmartCalc\SmartCalc\obj\Debug\SmartCalc.csproj.CoreCompileInputs.cache
+C:\Users\DHERNANDDE\Desktop\cSharp\SmartCalc\SmartCalc\obj\Debug\SmartCalc.exe
+C:\Users\DHERNANDDE\Desktop\cSharp\SmartCalc\SmartCalc\obj\Debug\SmartCalc.pdb

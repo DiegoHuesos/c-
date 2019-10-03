@@ -1,0 +1,15 @@
+C:\Users\DHERNANDDE\Desktop\cSharp\matrixCalc\matrixCalc\bin\Debug\matrixCalc.exe.config
+C:\Users\DHERNANDDE\Desktop\cSharp\matrixCalc\matrixCalc\bin\Debug\matrixCalc.exe
+C:\Users\DHERNANDDE\Desktop\cSharp\matrixCalc\matrixCalc\bin\Debug\matrixCalc.pdb
+C:\Users\DHERNANDDE\Desktop\cSharp\matrixCalc\matrixCalc\obj\Debug\MainWindow.g.cs
+C:\Users\DHERNANDDE\Desktop\cSharp\matrixCalc\matrixCalc\obj\Debug\App.g.cs
+C:\Users\DHERNANDDE\Desktop\cSharp\matrixCalc\matrixCalc\obj\Debug\matrixCalc_MarkupCompile.cache
+C:\Users\DHERNANDDE\Desktop\cSharp\matrixCalc\matrixCalc\obj\Debug\matrixCalc_MarkupCompile.lref
+C:\Users\DHERNANDDE\Desktop\cSharp\matrixCalc\matrixCalc\obj\Debug\MainWindow.baml
+C:\Users\DHERNANDDE\Desktop\cSharp\matrixCalc\matrixCalc\obj\Debug\matrixCalc.g.resources
+C:\Users\DHERNANDDE\Desktop\cSharp\matrixCalc\matrixCalc\obj\Debug\matrixCalc.Properties.Resources.resources
+C:\Users\DHERNANDDE\Desktop\cSharp\matrixCalc\matrixCalc\obj\Debug\matrixCalc.csproj.GenerateResource.cache
+C:\Users\DHERNANDDE\Desktop\cSharp\matrixCalc\matrixCalc\obj\Debug\matrixCalc.csproj.CoreCompileInputs.cache
+C:\Users\DHERNANDDE\Desktop\cSharp\matrixCalc\matrixCalc\obj\Debug\matrixCalc.exe
+C:\Users\DHERNANDDE\Desktop\cSharp\matrixCalc\matrixCalc\obj\Debug\matrixCalc.pdb
+C:\Users\DHERNANDDE\Desktop\cSharp\matrixCalc\matrixCalc\obj\Debug\matrixCalc.csprojAssemblyReference.cache
