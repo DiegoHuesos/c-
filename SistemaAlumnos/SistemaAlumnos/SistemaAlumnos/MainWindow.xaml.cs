@@ -40,8 +40,8 @@ namespace SistemaAlumnos
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            txPassword.Text = "ana";
-            txUsuario.Text = "ana";
+            txPassword.Text = "Ana";
+            txUsuario.Text = "Ana";
         }
     }
 }

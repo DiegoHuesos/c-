@@ -17,7 +17,7 @@ namespace SistemaAlumnos
         public static SqlConnection conectar() {
             SqlConnection cnn;
             try {
-                cnn = new SqlConnection("Data Source=112SALAS26;Initial Catalog=baseSistemaAlumno;User ID=sa;Password=sqladmin");
+                cnn = new SqlConnection("Data Source=CC102-09\\SA;Initial Catalog=baseSistemaAlumno;User ID=sa;Password=adminadmin");
                 cnn.Open();
                 MessageBox.Show("si se pudo hacer la conexión");
             } catch (Exception ex) {
