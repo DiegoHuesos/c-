@@ -27,11 +27,18 @@ namespace matrixCalc
         public MainWindow()
         {
             InitializeComponent();
+
+
+
+        
+
+
         }
 
 
         private void TbNum_MouseEnter(object sender, MouseEventArgs e)
         {
+    
             if (tbNum.Text.Equals("Ingresa la longitud de la matriz"))
                 tbNum.Text = "";
         }
@@ -45,6 +52,8 @@ namespace matrixCalc
 
         private void TbNum_KeyDown(object sender, KeyEventArgs e)
         {
+            this.tbNum.Text = "JaviNoble";
+            this.grid.Children.Add(new TextBox());
 
             if (e.Key == Key.Return)
             {
