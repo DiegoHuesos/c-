@@ -51,28 +51,20 @@ namespace matrixCalc
 
         private void TbNum_KeyDown(object sender, KeyEventArgs e)
         {
-            this.tbNum.Text = "JaviNoble";
-            this.grid.Children.Add(new TextBox());
-
+            
+            //Si presiona enter:
             if (e.Key == Key.Return)
             {
-                try
+                grid.Children.Add(new TextBox());
+                grid.Children.Add(new TextBox());
+                int n = int.Parse(tbNum.Text);
+                grid.Columns = n;
+                grid.Rows = n;
+                for (int i = 0; i < n; i++)
                 {
-                    n = int.Parse(tbNum.Text);
-                    for(int i = 0; i<n; i++){
-                        for(int j=0; j<n; j++){
-
-                            Button b = new Button();
-                            Thickness m = b.Margin;
-                            m.Left = 10 + (i * 10);
-                            m.Top = 10 + (i * 10);
-                        }
-                    }
+                    
                 }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Error: " + ex);
-                }
+               
             }
         }
     }
