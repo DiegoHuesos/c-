@@ -67,5 +67,7 @@ namespace SistemaAlumnos
         {
             this.Close();
         }
+
+   
     }
 }
