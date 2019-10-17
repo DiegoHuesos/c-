@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
+using System.Windows.Resources;
 using System.Windows.Shapes;
 
 namespace matrixCalc
@@ -20,18 +21,12 @@ namespace matrixCalc
     /// </summary>
     public partial class MainWindow : Window
     {
-        int n = 0;
+        List<String> carrito = new List<String>();
 
         public string PlaceholderText { get; set; }
         public MainWindow()
         {
             InitializeComponent();
-
-
-
-        
-
-
         }
 
 
@@ -49,30 +44,45 @@ namespace matrixCalc
         }
 
 
+       
+
+        public int click(Button bt)
+        {
+            return Convert.ToInt32(bt.Tag);
+        }
         private void TbNum_KeyDown(object sender, KeyEventArgs e)
         {
-            this.tbNum.Text = "JaviNoble";
-            this.grid.Children.Add(new TextBox());
-
+            
+            //Si presiona enter:
             if (e.Key == Key.Return)
             {
-                try
-                {
-                    n = int.Parse(tbNum.Text);
-                    for(int i = 0; i<n; i++){
-                        for(int j=0; j<n; j++){
 
-                            Button b = new Button();
-                            Thickness m = b.Margin;
-                            m.Left = 10 + (i * 10);
-                            m.Top = 10 + (i * 10);
-                        }
-                    }
-                }
-                catch (Exception ex)
+                grid.Columns = 2;
+                grid.Rows = 2;
+
+
+                for(int i = 0; i<4; i++)
                 {
-                    MessageBox.Show("Error: " + ex);
+                    //Create button:
+                    Button bt = new Button();
+
+                    //Add image to button:
+                    Uri resourceUri = new Uri("./pencil.jpg", UriKind.Relative);
+                    StreamResourceInfo streamInfo = Application.GetResourceStream(resourceUri);
+                    BitmapFrame temp = BitmapFrame.Create(streamInfo.Stream);
+                    var brush = new ImageBrush();
+                    brush.ImageSource = temp;
+                    bt.Background = brush;
+                    grid.Children.Add(bt);
+                    bt.Tag = i;
+                    //AddEvent:
+                    bt.Click += delegate
+                    {
+                        carrito.Add(""+this.click(bt));
+                    };
+
                 }
+                
             }
         }
     }

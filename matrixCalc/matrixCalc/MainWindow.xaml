@@ -12,7 +12,7 @@
     <Grid>
         <Label x:Name="lbTitle" Content="Matrix Calculator" HorizontalAlignment="Left" Height="52" Margin="230,10,0,0" VerticalAlignment="Top" Width="321" Foreground="#FFE2C853" FontSize="36" FontWeight="Bold"/>
         <TextBox x:Name="tbNum" Text="Ingresa la longitud de la matriz" HorizontalAlignment="Left" Height="40" Margin="218,67,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="315" Background="{x:Null}" FontSize="20" Foreground="#FFD49243" TextAlignment="Center" FontStretch="SemiCondensed" FontWeight="Bold" CaretBrush="White" BorderBrush="#FFB68C32" KeyDown="TbNum_KeyDown"  MouseEnter="TbNum_MouseEnter" MouseLeave="TbNum_MouseLeave_1" />
-        <Grid x:Name="grid" HorizontalAlignment="Left" Height="100" Margin="312,170,0,0" VerticalAlignment="Top" Width="100"/>
+        <UniformGrid x:Name="grid" HorizontalAlignment="Left" Height="100" Margin="312,170,0,0" VerticalAlignment="Top" Width="100"/>
 
     </Grid>
     
