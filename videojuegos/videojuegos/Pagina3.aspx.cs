@@ -29,18 +29,21 @@ namespace videojuegos
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            OdbcConnection miConexion = conectarBD();
-            if (miConexion != null)
+            if (!IsPostBack)
             {
-                String query = String.Format("SELECT juegos.nombre from juegos, escriben WHERE escriben.claveU={0} AND escriben.claveJ=juegos.claveJ",Session["claveUnica"].ToString());
-                OdbcCommand cmd = new OdbcCommand(query, miConexion);
-                OdbcDataReader rd = cmd.ExecuteReader();
-                ddJuegos.Items.Clear();
-                while (rd.Read())
+                OdbcConnection miConexion = conectarBD();
+                if (miConexion != null)
                 {
-                    ddJuegos.Items.Add(rd.GetString(0));
+                    String query = String.Format("SELECT juegos.nombre from juegos, escriben WHERE escriben.claveU={0} AND escriben.claveJ=juegos.claveJ", Session["claveUnica"].ToString());
+                    OdbcCommand cmd = new OdbcCommand(query, miConexion);
+                    OdbcDataReader rd = cmd.ExecuteReader();
+                    ddJuegos.Items.Clear();
+                    while (rd.Read())
+                    {
+                        ddJuegos.Items.Add(rd.GetString(0));
+                    }
+                    rd.Close();
                 }
-                rd.Close();
             }
         }
 
@@ -51,25 +54,28 @@ namespace videojuegos
 
         protected void ddJuegos_SelectedIndexChanged(object sender, EventArgs e)
         {
-            OdbcConnection miConexion = conectarBD();
-            if (miConexion != null)
-            {
-                String query = String.Format("SELECT claveJ FROM juegos WHERE nombre='{0}'",ddJuegos.SelectedValue);
-                OdbcCommand cmd = new OdbcCommand(query, miConexion);
-                OdbcDataReader rd = cmd.ExecuteReader();
-                rd.Read();
-                int claveJuego = rd.GetInt32(0);
-
-                String query2 = String.Format("SELECT critica.contenido FROM critica WHERE critica.claveC= (SELECT claveC FROM escriben WHERE escriben.claveU={0} and escriben.claveJ={1})",  Session["claveUnica"].ToString(), claveJuego);
-                OdbcCommand cmd2 = new OdbcCommand(query2, miConexion);
-                OdbcDataReader rd2 = cmd.ExecuteReader();
-                rd2.Read();
-                lbCritica.Text= rd.GetString(0);
-                rd.Close();
-                rd2.Close();
-            }
-            else
-                Console.WriteLine("Hola");
+            
+                OdbcConnection miConexion = conectarBD();
+                if (miConexion != null)
+                {
+                    String query = String.Format("SELECT juegos.claveJ FROM juegos WHERE nombre='{0}'", ddJuegos.SelectedValue);
+                    OdbcCommand cmd = new OdbcCommand(query, miConexion);
+                    OdbcDataReader rd = cmd.ExecuteReader();
+                    rd.Read();
+                    
+                    int claveJuego = rd.GetInt32(0);
+                    rd.Close();
+                    String query2 = String.Format("SELECT critica.contentido FROM critica WHERE critica.claveC= (SELECT claveC FROM escriben WHERE escriben.claveU={0} and escriben.claveJ={1})", Session["claveUnica"].ToString(), claveJuego);
+                    OdbcCommand cmd2 = new OdbcCommand(query2, miConexion);
+                    OdbcDataReader rd2 = cmd2.ExecuteReader();
+                    rd2.Read();
+                    lbCritica.Text = rd2.GetString(0);
+                    
+                    rd2.Close();
+                }
+                else
+                    Console.WriteLine("Hola");
+           
         }
     }
 }
